@@ -10,25 +10,25 @@ This document gives the basic idea about the h265 bitstream data and compose it 
 48 - 63 -> Do NOT pass to decoder
 
 ## NAL units
-> 0 - 9 -> coded slice segment
-> 10 - 15 -> Reversed
-> 16 - 21 -> coded slice segment
-> 22 - 31 -> Reversed
-> 32 - 40 
-> [
-> 32-vps
-> 33-sps
-> 34-pps
-> 35-AUD
-> 36-EOS
-> 37-EoB
-> 38-FillerData
-> 39-SEI (prefix)
-> 40-SEI (postfix)
-> ]
+> 0 - 9 -> coded slice segment  
+> 10 - 15 -> Reversed  
+> 16 - 21 -> coded slice segment  
+> 22 - 31 -> Reversed  
+> 32 - 40   
+> [  
+> 32-vps  
+> 33-sps  
+> 34-pps  
+> 35-AUD  
+> 36-EOS  
+> 37-EoB  
+> 38-FillerData  
+> 39-SEI (prefix)  
+> 40-SEI (postfix)  
+> ]  
 
-> 41 to 48 -> reversed
-> 49 - 63 -> unspecified
+> 41 to 48 -> reversed  
+> 49 - 63 -> unspecified  
 
 ### notable unit type of hevc decoding are listed below
 
