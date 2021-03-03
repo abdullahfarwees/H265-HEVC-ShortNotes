@@ -1,5 +1,7 @@
 # Short Notes - preparing HEVC data for decoding
 
+(https://github.com/abdullahfarwees/H265-HEVC-ShortNotes/blob/main/resources/Heading-hevc.png)
+
 This document gives the basic idea about the h265 bitstream data and compose it for decoding.
 
 ## NAL unit type of HEVC.
@@ -63,7 +65,9 @@ startbit, endbit
 
 [HEVCesBrowser](https://github.com/virinext/hevcesbrowser) - An open source tool to analyze the bitstream of h265 data!. 
 
-<insert image - Basic media network data>
+
+#### Basic media network data
+[](https://github.com/abdullahfarwees/H265-HEVC-ShortNotes/blob/main/resources/BasicMediaNetworkData.png)
 - remove 12 bytes of RTP header
 - remove 3 bytes of Fu Header
 - combine all Fu packets till end packet is formed. after getting a complete data, its time to feed to the decoder.
