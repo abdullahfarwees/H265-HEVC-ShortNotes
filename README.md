@@ -1,6 +1,6 @@
 # Short Notes - preparing HEVC data for decoding
 
-(https://github.com/abdullahfarwees/H265-HEVC-ShortNotes/blob/main/resources/Heading-hevc.png)
+[](https://github.com/abdullahfarwees/H265-HEVC-ShortNotes/blob/main/resources/Heading-hevc.png)
 
 This document gives the basic idea about the h265 bitstream data and compose it for decoding.
 
